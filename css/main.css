@@ -1,0 +1,313 @@
+/*---Start  Global Rules--*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --main-color:#0357f8; 
+    --transparent-color: #e4eaf8; 
+    --background:#ffffff;
+}
+
+.clear{
+    clear: both;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*----End Global Rules---*/
+
+/*----start header ------*/
+
+header{
+    background-color: var(--main-color);
+    height: 50px;
+    
+}
+
+header nav .logo{
+    width:10px;
+    
+}
+header nav .logo img{
+    width: 200px;
+}
+
+header nav ul{
+    position: absolute;
+    left: 85%;
+    border: 1px solid white;
+    padding: 0;
+    border-radius: 7%;
+}
+
+header nav ul li{
+font-size: 12px;
+color: #ffffff;
+}
+
+.text{
+    color: #ffffff;
+}
+
+.ul1{
+    margin-left: 80px;
+}
+.ul2{
+    margin-left: -50px;
+}
+
+ul .menuu{
+   margin-left: -60px;
+  
+}
+
+.iconns{
+    margin-right: 3px;
+}
+.icon2{
+    
+    margin-top: 9px;
+    margin-left: 5px;
+    color:white;
+
+}
+
+
+form{
+   
+    position: absolute;
+    left:40%;
+    width: 300px;
+    height: 35px;
+}
+form .icon{
+    color: var(--main-color);
+    position: absolute;
+    left: 86%;
+    top: 25%;
+}
+
+form .icon:hover{
+    color: #e4eaf8;
+    cursor: pointer;
+}
+
+
+@media(max-width: 992px) {
+
+    header nav .logo img{
+        width: 150px;
+    }
+   nav .mediaa{
+        margin-top: -0.5%;
+        background-color: rgb(218, 234, 234);
+   }
+   
+    form{
+    
+        position: absolute;
+        left:40%;
+        top:7px;
+        width: 200px;
+        height: 35px;
+    }   
+    header nav ul{
+        position: absolute;
+        left: 85%;
+        top:100%;
+        border: 0px solid rgb(223, 223, 223);
+        padding: 0px;
+        border-radius: 9%;
+        background-color:transparent;
+        z-index: 999;
+        
+    } 
+    
+header nav ul li{
+    font-size: 10px;
+    padding: 1.5px;
+  
+    }
+
+    
+    .ul1{
+        position: absolute;
+        top:12%;
+        left: 69%;
+    
+    
+    }
+    .ul2{
+        position: absolute;
+        top: 12%;
+        left: 79%;
+    }
+
+    .icon2{
+        display: none;
+
+    }
+    ul .menuu1{
+       margin-left: -110px;
+      
+
+    }
+    ul .menuu2 {
+        margin-left: -100px;
+     }
+    ul .menuu li{
+     padding: 0px;
+     height: 20px;
+     }
+
+} 
+
+
+
+
+/* statr about */
+body{
+    background-color:var(--transparent-color);
+   
+}
+
+.about{
+    background-color: var(--background);
+    width: 600px;
+    height: 99vh;
+    position: absolute;
+    left: 30%;
+    z-index: 2;
+}
+
+  .test{
+    border: 1px solid rgb(176, 173, 173);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 505px;
+    height:70px;
+    margin-left: 8%;
+    margin-top: 4%;
+  }
+  
+  
+.test img{
+     
+    margin-bottom:0px;
+    margin-top: 5px;
+    margin-left: -30px;
+    width: 60px;  
+    height: 60px;
+    border-radius: 50%; 
+    border: 2px solid #eaeaea;
+  }
+
+
+.test h2{
+    width: 50%;
+    font-size: 25px;
+    margin-top: 16px;
+    margin-left: 0px;
+    color: var(--main-color);
+  
+}
+  
+  .test button{
+    width: 95px;
+    height: 35px;
+    margin-top: 15px;
+    padding: 2px;
+    background-color: var(--main-color);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: #f6fdff;
+    font-size: 15px;
+  
+  }
+  
+  @media(max-width: 992px) {
+    .about{
+        background-color:var(--background);
+        width: 600px;
+        height: 99vh;
+        position: absolute;
+        left: 25%;
+    }
+    
+  .test{
+    border: 1px solid rgb(176, 173, 173);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    width: 505px;
+    height:70px;
+    margin-top: 40px;
+    
+  }
+
+  }
+
+  
+  
+/*********** Start form --*****************/
+
+
+
+#formms{
+    background-color: rgb(253, 253, 253);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    width: 435px;
+    height: 425px;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 80px;
+    z-index: 999;
+    display: none;
+  
+   
+}
+.formmm form{
+    width: 10%; 
+   
+}
+#forma{
+    width: 100%; 
+    margin-left: -40%;
+}
+form .texth h3{
+   color: blue;
+   text-align: center;
+   padding-top: 20px;
+   font-size: 130%;
+   
+}
+.iclose{
+    position: absolute;
+    left: 90%;
+    top: 22px;
+}
+hr{
+    width: 90%;
+    margin-left:5%;
+}
+.textarea{
+    padding: 10px;
+    margin-top: 30px;
+}
+.file{
+    padding: 10px;
+    margin-top: 30px;
+}
+.btn{
+    margin-left: 40%;
+    margin-bottom: 20px;
+}
